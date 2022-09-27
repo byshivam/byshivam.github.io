@@ -1,0 +1,55 @@
+html{
+    background-image: url('/src/background.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: saturate(180) blur(10px);
+}
+
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;   
+}
+
+.container{
+    float: left;
+    padding: 10px 15px;
+    width: 250px;
+}
+
+.container header h1{
+    text-shadow: 1px 1px 16px red;
+}
+
+.social-media a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: red;
+    font-size: large;
+    text-shadow: 1px 1px 16px red;
+}
+
+.latest-news{
+    padding: 10px;
+    bottom: 0%;
+}
+
+.music-streams a{
+    color: white;
+    text-decoration: none;
+}
+
+.music-streams a:hover{
+    color: red;
+    font-size: large;
+    text-shadow: 1px 1px 16px red;
+}
+
+.shape{
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+}
+
