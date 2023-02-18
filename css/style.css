@@ -130,8 +130,7 @@ footer {
 }
 
 .announce marquee{
-    
-    /* margin: 2px; */
+    width: 15vw;
     font-size: 12px;
 }
 
@@ -143,3 +142,19 @@ footer {
     margin: 0px 15px;
     margin-bottom: 10vh;
 }
+
+#message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    text-align: center;
+    z-index: 9999;
+  }
+  .hidden {
+    display: none;
+  }
