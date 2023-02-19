@@ -87,18 +87,9 @@ footer {
     letter-spacing: 3px;
 }
 
-
-/* .card{
-    color: black;
-    text-align: center;
-    background-color: white;
-    width: 20vw;
-    height: 70vh;
-    border-radius: 20px;
-} */
-
 .card{
     padding-bottom: 5vh;
+    box-shadow: 0px 0px 4px white;
     margin-top: 60px;
     margin-bottom: 5px;
     color: black;
@@ -107,7 +98,7 @@ footer {
     width: 20vw;
     height: 65vh;
     border-radius: 20px;
-    margin-left: 75vw; /* added margin-left property */
+    margin-left: 75vw; 
 }
 
 
