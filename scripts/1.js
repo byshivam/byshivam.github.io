@@ -7,6 +7,7 @@ window.addEventListener('load', ()=>{
     const loadingScreen = document.getElementById("loading-screen");
     loadingScreen.style.opacity = 0;
     setTimeout(() => loadingScreen.style.display = "none", 1000);
+    
     const notice = document.getElementById('news');
       // const message = document.getElementById("message");
     notice.innerText = "This is a test message!";
